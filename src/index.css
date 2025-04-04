@@ -1,0 +1,37 @@
+*{
+  font-family: 'Shippuden';
+}
+
+:root {
+  --naruto-orange: #FF7F00;
+  --naruto-black: #000000;
+  --naruto-white: #FFFFFF;
+  --naruto-blue: #1E3A5F;
+  --naruto-yellow: #F7D13B;
+  --naruto-red: #D50032;
+  --naruto-gray: #B0B0B0;
+}
+
+/* body{
+  background-color: var(--naruto-orange);
+} */
+
+a, p{
+  font-size: 16px;
+  opacity: .8;
+}
+
+h1{
+  font-size: 2.2rem;
+}
+
+h2{
+  font-size: 23px;
+  /* color: var(--naruto-orange); */
+}
+
+
+@font-face {
+  font-family: 'Shippuden';
+  src: url(./assets/font/shippuden/njnaruto.ttf);
+}
